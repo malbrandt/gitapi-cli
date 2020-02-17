@@ -1,0 +1,22 @@
+{
+  "name": "malbrandt/gitapi",
+  "description": "Simple CLI app that allows to get some info about Git repositories (different drivers). Recruitment task.",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Marek Malbrandt",
+      "email": "marek.malbrandt@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Malbrandt\\Git\\": "src/"
+    }
+  },
+  "require": {
+    "symfony/console": "^5.0",
+    "guzzlehttp/guzzle": "^6.5",
+    "spatie/macroable": "^1.0"
+  },
+  "license": "MIT"
+}
